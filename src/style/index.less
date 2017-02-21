@@ -1,0 +1,89 @@
+@import 'template/head.less';
+@import 'template/foot.less';
+@import 'template/positionList.less';
+@import 'template/positionInfo.less';
+@import 'template/company.less';
+@import 'template/positionClass.less';
+@import 'template/tab.less';
+@import 'template/sheet.less';
+@import 'property.less';
+@import 'position.less';
+@import 'search.less';
+@import 'login.less';
+@import 'register.less';
+@import 'me.less';
+@import 'post.less';
+
+.ng-enter {
+  transition:0.5s linear all;
+  opacity:0;
+}
+
+.ng-enter-active {
+  opacity:1;
+}
+
+
+
+.fs(@px) {
+	font-size: unit(@px / 37.5, rem);
+}
+
+.w(@px) {
+	width: unit(@px / 37.5, rem);
+}
+
+.h(@px) {
+	height: unit(@px / 37.5, rem);
+}
+.lh(@px) {
+	line-height: unit(@px / 37.5, rem);
+}
+.mt(@px) {
+	margin-top: unit(@px / 37.5, rem);
+}
+.ml(@px) {
+	margin-left: unit(@px / 37.5, rem);
+}
+.mr(@px) {
+	margin-right: unit(@px / 37.5, rem);
+}
+.mb(@px) {
+	margin-bottom: unit(@px / 37.5, rem);
+}
+.pt(@px) {
+	padding-top: unit(@px / 37.5, rem);
+}
+.pl(@px) {
+	padding-left: unit(@px / 37.5, rem);
+}
+.pr(@px) {
+	padding-right: unit(@px / 37.5, rem);
+}
+.pb(@px) {
+	padding-bottom: unit(@px / 37.5, rem);
+}
+.va-t {
+	vertical-align: top;
+}
+.va-m {
+	vertical-align: middle;
+}
+.va-b {
+	vertical-align: bottom;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+body {
+	.fs(16);
+	background-color: @bodyBgColor;
+}
+button {
+	border-width: 0;
+	outline-width: 0;
+}
