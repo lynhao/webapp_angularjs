@@ -1,5 +1,5 @@
 #这是一个基于angularjs1.5搭建的webapp
-> version 0.0.1
+> version 1.0
 
 ##本地项目搭建
 ```bash
@@ -57,12 +57,21 @@ npm i --save-dev gulp gulp-clean gulp-concat gulp-cssmin gulp-imagemin gulp-less
 ```bash
 bower install --save ui-router
 bower install --save angular-cookies
+bower install --save angular-validation
+bower install --save angular-animate
 ```
 
 ###运行项目
 ```bash
  gulp serve
 ```
+##新增功能
+
+> 用户登录、注册
+>> 个人详情收藏页
+>>>增加搜索排序功能
+>>>> 增加过场动画
+
 ##截图
 ![screen1](https://github.com/lynhao/ImageStorage/blob/master/picture/1.png?raw=true)
 ![screen2](https://github.com/lynhao/ImageStorage/blob/master/picture/2.png?raw=true)
